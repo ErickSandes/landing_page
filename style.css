@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.container {
+    padding-bottom: 1rem;
+}
+
+.container .img {
+    position: relative;
+    backdrop-filter: -1px;
+}
+
+.container h1 {
+    /* Font */
+    color: white;
+    font-weight: 700;
+
+    /* Position */
+    position: absolute;
+    top: 6rem;
+    padding: 0 2.5rem;
+}
+
+.container h2 {
+    /* Font */
+    font-weight: 700;
+
+    /* Position */
+    text-align: center;
+    padding: 1.5rem 0;
+}
+
+.container .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container .cards .card {
+    border: transparent;
+    width: 310px;
+
+    /* Position */
+    padding: 0 0.3rem;
+}
+
+.container .cards .card .btn {
+    /* Font */
+    font-weight: 500;
+
+    width: 100%;
+}
+
+.container .cards .card p {
+    font-size: 0.9em;
+}
